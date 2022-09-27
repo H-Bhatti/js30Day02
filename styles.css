@@ -1,6 +1,6 @@
 html{
-    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
-    background-size: cover;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    
     font-family: 'helvetica neue';
     text-align: center;
     font-size: 10px;
@@ -47,4 +47,15 @@ html{
     transform: rotate(90Deg);
     transition: all 0.1s;
     transition-timing-function: cubic-bezier(0.78, 0.15, 0, 1.09);
+}
+.text{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nabla', cursive;   
+     
+}
+h1{
+    font-family: 'Bungee Spice', cursive;
 }
